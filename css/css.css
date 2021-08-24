@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+	overflow-x: hidden;
+    
+}
+
+.main-container {
+	border: 1px solid green;
+	min-height: 100vh; 
+	display: flex; 
+	align-items: center;
+}
+
+.main-panel {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/04/41/03/08/1000_F_441030850_yYtglcEsfZfXKCgfk7elGZonsPCIR0De.jpg");
+  /*background-image: url("https://cdn.pixabay.com/photo/2019/07/01/11/43/bangkok-4309812_1280.jpg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
